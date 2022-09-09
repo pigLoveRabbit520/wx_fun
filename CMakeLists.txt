@@ -6,7 +6,7 @@ set(SOURCE src/main.cpp)
 
 set(wxWidgets_ROOT_DIR $ENV{WXWIN})
 set(wxWidgets_LIB_DIR $ENV{WXWIN}/lib/gcc_lib)
-set(wxWidgets_CONFIGURATION mswud)
+set(wxWidgets_CONFIGURATION mswu)
 
 add_executable(${PROJECT_NAME} WIN32 ${SOURCE})
 find_package(wxWidgets COMPONENTS net core base)
