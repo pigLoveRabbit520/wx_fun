@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${env:WXWIN}/include/**"
+                "${env:WXWIN}/include/**",
+                "${env:WXWIN}/lib/gcc_lib/mswu/**"
             ],
             "defines": [
                 "_DEBUG",
