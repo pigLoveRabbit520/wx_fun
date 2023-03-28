@@ -2,7 +2,7 @@
 wxWidgets的一个没多余依赖demo exe，用MinGW编译的，无需vcruntime依赖。
 
 # Prerequisite
-* MinGW
+* [MinGW](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/)
 * 编译wxWidgets的静态库：进入wxWidgets目录，执行`mingw32-make -f makefile.gcc SHARED=0 UNICODE=1 BUILD=release`，加`-j`可以利用多核编译，如`-j4`用4个核
 
 # 编译
