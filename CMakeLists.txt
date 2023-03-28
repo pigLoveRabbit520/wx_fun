@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.2)
 
+SET(CMAKE_C_COMPILER gcc)
+SET(CMAKE_CXX_COMPILER g++)
+
 project(wx_fun)
 
 set(SOURCE src/main.cpp)
